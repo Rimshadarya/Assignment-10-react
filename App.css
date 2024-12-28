@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  padding: 50px;
+  margin-left: 400px;
+  background: linear-gradient(to right, rgb(187, 152, 152), rgb(180, 162, 128), rgb(196, 196, 166), rgb(179, 218, 179), rgb(165, 165, 236), rgb(182, 147, 207), rgb(226, 163, 226));
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
